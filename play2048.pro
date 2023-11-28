@@ -35,6 +35,9 @@
 ;
 ; MODIFICATION HISTORY:
 ; Own work, Jakub Morawski, November 2023
+;
+;FOR MORE INFORMATION
+; on how to use the appliction and the story of how it was created, watch https://youtu.be/ty694Dw5ITQ
 ;-
 
 ; The first few functions here are related specifically to the game mode and don't have anything to do with image processing. I will provide brief one-sentence comments for those
@@ -646,7 +649,7 @@ PRO play2048, ptr
   tres=0.9
   a = base_tile(p)
   lost = 3B
-  vict=11
+  vict=12
   preview_h = scrsz[1]-g*(2^p+marg)-130
   preview_w = (g)*(2^p+marg)
   arrow_drawn = arrow_drawing(preview_h/4)
